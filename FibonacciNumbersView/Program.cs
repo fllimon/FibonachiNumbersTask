@@ -12,11 +12,26 @@ namespace FibonacciNumbersView
     {
         static void Main(string[] args)
         {
-            FibonacciNumber numbers = new FibonacciNumber(200, 2500);
-
-            foreach (int item in numbers)
+            try
             {
-                Console.Write($"{item}, ");
+                DataValidator validator = new DataValidator();
+
+                bool result = validator.GetNumber(DataConvertor.ConvertData(args[0]), DataConvertor.ConvertData(args[1]));
+
+                if (result)
+                {
+                    FibonacciNumber numbers = new FibonacciNumber(DataConvertor.ConvertData(args[0]),
+                                                                  DataConvertor.ConvertData(args[1]));
+
+                    foreach (int item in numbers)
+                    {
+                        Console.Write($"{item}, ");
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
             }
 
             Console.ReadKey();

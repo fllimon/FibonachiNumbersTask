@@ -29,7 +29,7 @@ namespace FibonacciNumbersView
             }
         }
 
-        public bool IsOddValue(int startRange, int finishRange)
+        private bool IsOddValue(int startRange, int finishRange)
         {
             return ((startRange < 0) && (finishRange < 0));
         }
