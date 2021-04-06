@@ -78,9 +78,9 @@ namespace FibonachiNumbersLib
 
                 if (_isPosition)
                 {
-                    int tmp = _previous;
-                    _previous = _currentValue;
-                    _currentValue += _previous;
+                    int previous = _firstFibonacciNumber;
+                    _firstFibonacciNumber = _currentValue;
+                    _currentValue += previous;
 
                 }
                 else

@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonachiNumbersLib", "FibonachiNumbersLib\FibonachiNumbersLib.csproj", "{0A403950-54E7-465B-A415-6A6442A363D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciNumbersView", "FibonacciNumbersView\FibonacciNumbersView.csproj", "{F0F9E5A0-9658-4153-B6F4-FFB4A1F3417C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0A403950-54E7-465B-A415-6A6442A363D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A403950-54E7-465B-A415-6A6442A363D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A403950-54E7-465B-A415-6A6442A363D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0F9E5A0-9658-4153-B6F4-FFB4A1F3417C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0F9E5A0-9658-4153-B6F4-FFB4A1F3417C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0F9E5A0-9658-4153-B6F4-FFB4A1F3417C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0F9E5A0-9658-4153-B6F4-FFB4A1F3417C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
