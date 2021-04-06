@@ -12,7 +12,7 @@ namespace FibonacciNumbersView
     {
         static void Main(string[] args)
         {
-            FibonacciNumber numbers = new FibonacciNumber(200, 700);
+            FibonacciNumber numbers = new FibonacciNumber(200, 2500);
 
             foreach (int item in numbers)
             {
